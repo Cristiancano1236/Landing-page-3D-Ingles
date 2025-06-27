@@ -13,37 +13,14 @@
           </div>
           <!-- Menú Desktop -->
           <div class="hidden space-x-8 md:flex">
-            <a href="#servicios" class="text-white/80 transition-colors hover:text-cyan-400">Services</a>
-            <a href="#portafolio" class="text-white/80 transition-colors hover:text-cyan-400">Portfolio</a>
-            <a href="#proceso" class="text-white/80 transition-colors hover:text-cyan-400">Process</a>
-            <a href="#contacto" class="text-white/80 transition-colors hover:text-cyan-400">Contact</a>
+            <a href="#servicios" class="text-white/80 transition-colors hover:text-cyan-400">Servicios</a>
+            <a href="#portafolio" class="text-white/80 transition-colors hover:text-cyan-400">Portafolio</a>
+            <a href="#proceso" class="text-white/80 transition-colors hover:text-cyan-400">Proceso</a>
+            <a href="#contacto" class="text-white/80 transition-colors hover:text-cyan-400">Contacto</a>
           </div>
-          <!-- Botón de menú móvil -->
-          <div class="flex items-center gap-4">
-            <button 
-              @click="toggleMenu"
-              class="relative z-50 block h-10 w-10 md:hidden"
-              aria-label="Menu"
-            >
-              <div class="absolute left-1/2 top-1/2 h-5 w-5 -translate-x-1/2 -translate-y-1/2">
-                <span 
-                  class="absolute block h-0.5 w-5 transform bg-white transition-all duration-300"
-                  :class="isMenuOpen ? 'top-0 rotate-45' : '-translate-y-1.5'"
-                ></span>
-                <span 
-                  class="absolute top-0 block h-0.5 w-5 transform bg-white transition-all duration-300"
-                  :class="isMenuOpen ? 'opacity-0' : 'opacity-100'"
-                ></span>
-                <span 
-                  class="absolute block h-0.5 w-5 transform bg-white transition-all duration-300"
-                  :class="isMenuOpen ? 'top-0 -rotate-45' : 'translate-y-1.5'"
-                ></span>
-              </div>
-            </button>
-            <button class="hidden rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 px-6 py-2 text-white transition-all hover:scale-105 md:block">
-              Start Project
-            </button>
-          </div>
+          <button class="hidden rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 px-6 py-2 text-white transition-all hover:scale-105 md:block">
+            Iniciar Proyecto
+          </button>
         </div>
       </nav>
 
@@ -93,20 +70,20 @@
         <div class="flex min-h-screen items-center">
           <div class="max-w-2xl opacity-0" ref="content">
             <h1 class="hero-title mb-6 text-7xl font-bold text-white md:text-8xl">
-              We Create 
+              Creamos 
               <span class="mt-2 block bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                Digital Experiences
+                Experiencias Digitales
               </span>
             </h1>
             <p class="mb-8 text-xl text-gray-300">
-              Transforming ideas into unique digital experiences. Web design, development and creativity at its finest.
+              Transformando ideas en experiencias digitales únicas. Diseño web, desarrollo y creatividad en su máxima expresión.
             </p>
             <div class="flex space-x-4">
               <button class="rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 px-8 py-3 text-white transition-all hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25">
-                View Projects
+                Ver Proyectos
               </button>
               <button class="rounded-full border-2 border-white/20 px-8 py-3 text-white transition-all hover:border-cyan-400 hover:bg-cyan-400/10">
-                Contact Us
+                Contáctanos
               </button>
             </div>
           </div>
@@ -119,10 +96,10 @@
       <div class="container mx-auto px-4">
         <div class="mb-16 text-center">
           <h2 class="mb-4 text-5xl font-bold text-white">
-            Our Services
+            Nuestros Servicios
           </h2>
           <p class="mx-auto max-w-2xl text-gray-400">
-            Complete digital solutions to grow your business
+            Soluciones digitales completas para hacer crecer tu negocio
           </p>
         </div>
         
@@ -137,26 +114,26 @@
                 </div>
               </div>
               <div class="mt-12 text-center">
-                <h3 class="mb-4 text-2xl font-bold text-white">UI/UX Design</h3>
+                <h3 class="mb-4 text-2xl font-bold text-white">Diseño UI/UX</h3>
                 <p class="mb-6 text-gray-400">
-                  Modern interfaces and exceptional user experiences.
+                  Interfaces modernas y experiencias de usuario excepcionales.
                 </p>
                 <ul class="space-y-3 text-left text-gray-400">
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                    <span>Responsive Design</span>
+                    <span>Diseño Responsivo</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                    <span>Interactive Prototypes</span>
+                    <span>Prototipos Interactivos</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                    <span>Design Systems</span>
+                    <span>Sistemas de Diseño</span>
                   </li>
                 </ul>
                 <button class="mt-8 w-full rounded-xl bg-gradient-to-r from-cyan-400 to-purple-500 py-3 text-white shadow-lg shadow-cyan-500/25 transition-all hover:scale-105">
-                  More Information
+                  Más Información
                 </button>
               </div>
             </div>
@@ -172,26 +149,26 @@
                 </div>
               </div>
               <div class="mt-12 text-center">
-                <h3 class="mb-4 text-2xl font-bold text-white">Web Development</h3>
+                <h3 class="mb-4 text-2xl font-bold text-white">Desarrollo Web</h3>
                 <p class="mb-6 text-gray-400">
-                  Websites and applications with modern technologies.
+                  Sitios web y aplicaciones con tecnologías modernas.
                 </p>
                 <ul class="space-y-3 text-left text-gray-400">
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-blue-500/20 text-blue-400">✓</span>
-                    <span>Modern Frontend</span>
+                    <span>Frontend Moderno</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-blue-500/20 text-blue-400">✓</span>
-                    <span>Robust Backend</span>
+                    <span>Backend Robusto</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-blue-500/20 text-blue-400">✓</span>
-                    <span>APIs & Integrations</span>
+                    <span>APIs e Integraciones</span>
                   </li>
                 </ul>
                 <button class="mt-8 w-full rounded-xl bg-gradient-to-r from-blue-400 to-emerald-500 py-3 text-white shadow-lg shadow-blue-500/25 transition-all hover:scale-105">
-                  More Information
+                  Más Información
                 </button>
               </div>
             </div>
@@ -207,32 +184,32 @@
                 </div>
               </div>
               <div class="mt-12 text-center">
-                <h3 class="mb-4 text-2xl font-bold text-white">Digital Marketing</h3>
+                <h3 class="mb-4 text-2xl font-bold text-white">Marketing Digital</h3>
                 <p class="mb-6 text-gray-400">
-                  Effective strategies for your online presence.
+                  Estrategias efectivas para tu presencia online.
                 </p>
                 <ul class="space-y-3 text-left text-gray-400">
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-pink-500/20 text-pink-400">✓</span>
-                    <span>SEO Optimization</span>
+                    <span>Optimización SEO</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-pink-500/20 text-pink-400">✓</span>
-                    <span>Content Marketing</span>
+                    <span>Marketing de Contenidos</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-pink-500/20 text-pink-400">✓</span>
-                    <span>Data Analysis</span>
+                    <span>Análisis de Datos</span>
                   </li>
                 </ul>
                 <button class="mt-8 w-full rounded-xl bg-gradient-to-r from-pink-400 to-orange-500 py-3 text-white shadow-lg shadow-pink-500/25 transition-all hover:scale-105">
-                  More Information
+                  Más Información
                 </button>
               </div>
             </div>
           </div>
 
-          <!-- Servicio 4: Desarrollo Móvil - Violeta y Rosa -->
+          <!-- Servicio 4: Desarrollo Móvil -->
           <div class="service-card group relative">
             <div class="absolute inset-0 rounded-3xl bg-gradient-to-br from-violet-500/10 to-pink-500/10 backdrop-blur-xl"></div>
             <div class="relative z-10 p-8">
@@ -242,14 +219,14 @@
                 </div>
               </div>
               <div class="mt-12 text-center">
-                <h3 class="mb-4 text-2xl font-bold text-white">Mobile Development</h3>
+                <h3 class="mb-4 text-2xl font-bold text-white">Desarrollo Móvil</h3>
                 <p class="mb-6 text-gray-400">
-                  Native and cross-platform mobile applications.
+                  Aplicaciones nativas y multiplataforma.
                 </p>
                 <ul class="space-y-3 text-left text-gray-400">
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                    <span>iOS & Android</span>
+                    <span>iOS y Android</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
@@ -261,13 +238,13 @@
                   </li>
                 </ul>
                 <button class="mt-8 w-full rounded-xl bg-gradient-to-r from-violet-400 to-pink-500 py-3 text-white shadow-lg shadow-violet-500/25 transition-all hover:scale-105">
-                  More Information
+                  Más Información
                 </button>
               </div>
             </div>
           </div>
 
-          <!-- Servicio 5: E-commerce - Verde y Amarillo -->
+          <!-- Servicio 5: Comercio Electrónico -->
           <div class="service-card group relative">
             <div class="absolute inset-0 rounded-3xl bg-gradient-to-br from-green-500/10 to-yellow-500/10 backdrop-blur-xl"></div>
             <div class="relative z-10 p-8">
@@ -277,32 +254,32 @@
                 </div>
               </div>
               <div class="mt-12 text-center">
-                <h3 class="mb-4 text-2xl font-bold text-white">E-commerce</h3>
+                <h3 class="mb-4 text-2xl font-bold text-white">Comercio Electrónico</h3>
                 <p class="mb-6 text-gray-400">
-                  Complete e-commerce solutions.
+                  Soluciones completas de e-commerce.
                 </p>
                 <ul class="space-y-3 text-left text-gray-400">
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                    <span>Online Stores</span>
+                    <span>Tiendas Online</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                    <span>Payment Gateways</span>
+                    <span>Pasarelas de Pago</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                    <span>Inventory Management</span>
+                    <span>Gestión de Inventario</span>
                   </li>
                 </ul>
                 <button class="mt-8 w-full rounded-xl bg-gradient-to-r from-green-400 to-yellow-500 py-3 text-white shadow-lg shadow-green-500/25 transition-all hover:scale-105">
-                  More Information
+                  Más Información
                 </button>
               </div>
             </div>
           </div>
 
-          <!-- Servicio 6: IA & Machine Learning - Índigo y Azul -->
+          <!-- Servicio 6: IA y Aprendizaje Automático -->
           <div class="service-card group relative">
             <div class="absolute inset-0 rounded-3xl bg-gradient-to-br from-indigo-500/10 to-blue-500/10 backdrop-blur-xl"></div>
             <div class="relative z-10 p-8">
@@ -312,26 +289,26 @@
                 </div>
               </div>
               <div class="mt-12 text-center">
-                <h3 class="mb-4 text-2xl font-bold text-white">AI & Machine Learning</h3>
+                <h3 class="mb-4 text-2xl font-bold text-white">IA y Aprendizaje Automático</h3>
                 <p class="mb-6 text-gray-400">
-                  Intelligent solutions for your business.
+                  Soluciones inteligentes para tu negocio.
                 </p>
                 <ul class="space-y-3 text-left text-gray-400">
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                    <span>AI Chatbots</span>
+                    <span>Chatbots IA</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                    <span>Predictive Analysis</span>
+                    <span>Análisis Predictivo</span>
                   </li>
                   <li class="flex items-center space-x-3">
                     <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                    <span>AI Automation</span>
+                    <span>Automatización IA</span>
                   </li>
                 </ul>
                 <button class="mt-8 w-full rounded-xl bg-gradient-to-r from-indigo-400 to-blue-500 py-3 text-white shadow-lg shadow-indigo-500/25 transition-all hover:scale-105">
-                  More Information
+                  Más Información
                 </button>
               </div>
             </div>
@@ -345,10 +322,10 @@
       <div class="container mx-auto px-4">
         <div class="mb-16 text-center">
           <h2 class="mb-4 text-5xl font-bold text-white">
-            Our Portfolio
+            Nuestro Portafolio
           </h2>
           <p class="mx-auto max-w-2xl text-gray-400">
-            Projects that speak for themselves
+            Proyectos que hablan por sí mismos
           </p>
         </div>
         
@@ -382,7 +359,7 @@
                   </li>
                 </ul>
                 <button class="mt-8 w-full rounded-xl bg-gradient-to-r from-cyan-400 to-purple-500 py-3 text-white shadow-lg shadow-cyan-500/25 transition-all hover:scale-105">
-                  View project
+                  Ver proyecto
                 </button>
               </div>
             </div>
@@ -417,7 +394,7 @@
                   </li>
                 </ul>
                 <button class="mt-8 w-full rounded-xl bg-gradient-to-r from-blue-400 to-emerald-500 py-3 text-white shadow-lg shadow-blue-500/25 transition-all hover:scale-105">
-                  View project
+                  Ver proyecto
                 </button>
               </div>
             </div>
@@ -452,7 +429,7 @@
                   </li>
                 </ul>
                 <button class="mt-8 w-full rounded-xl bg-gradient-to-r from-pink-400 to-orange-500 py-3 text-white shadow-lg shadow-pink-500/25 transition-all hover:scale-105">
-                  View project
+                  Ver proyecto
                 </button>
               </div>
             </div>
@@ -466,10 +443,10 @@
       <div class="container mx-auto px-4">
         <div class="mb-16 text-center">
           <h2 class="mb-4 text-5xl font-bold text-white">
-            Our Process
+            Nuestro Proceso
           </h2>
           <p class="mx-auto max-w-2xl text-gray-400">
-            Proven methodology to take your project to the next level
+            Metodología probada para llevar tu proyecto al siguiente nivel
           </p>
         </div>
         
@@ -497,22 +474,22 @@
                   </div>
                 </div>
                 <div class="mt-12 ml-4">
-                  <h3 class="mb-4 text-2xl font-bold text-white">Discovery</h3>
+                  <h3 class="mb-4 text-2xl font-bold text-white">Descubrimiento</h3>
                   <p class="mb-6 text-gray-400">
-                    We analyze your needs and objectives to create a personalized strategy.
+                    Analizamos tus necesidades y objetivos para crear una estrategia personalizada.
                   </p>
                   <ul class="space-y-3 text-gray-400">
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                      <span>Kickoff Meeting</span>
+                      <span>Reunión Inicial</span>
                     </li>
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                      <span>Requirements Analysis</span>
+                      <span>Análisis de Requisitos</span>
                     </li>
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20 text-cyan-400">✓</span>
-                      <span>Initial Planning</span>
+                      <span>Planificación Inicial</span>
                     </li>
                   </ul>
                 </div>
@@ -529,9 +506,9 @@
                   </div>
                 </div>
                 <div class="mt-12 mr-4">
-                  <h3 class="mb-4 text-2xl font-bold text-white">Design</h3>
+                  <h3 class="mb-4 text-2xl font-bold text-white">Diseño</h3>
                   <p class="mb-6 text-gray-400">
-                    We create prototypes and designs that capture your vision.
+                    Creamos prototipos y diseños que capturan tu visión.
                   </p>
                   <ul class="space-y-3 text-gray-400">
                     <li class="flex items-center space-x-3">
@@ -540,11 +517,11 @@
                     </li>
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-blue-500/20 text-blue-400">✓</span>
-                      <span>Visual Design</span>
+                      <span>Diseño Visual</span>
                     </li>
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-blue-500/20 text-blue-400">✓</span>
-                      <span>Interactive Prototypes</span>
+                      <span>Prototipos Interactivos</span>
                     </li>
                   </ul>
                 </div>
@@ -561,22 +538,22 @@
                   </div>
                 </div>
                 <div class="mt-12 ml-4">
-                  <h3 class="mb-4 text-2xl font-bold text-white">Development</h3>
+                  <h3 class="mb-4 text-2xl font-bold text-white">Desarrollo</h3>
                   <p class="mb-6 text-gray-400">
-                    We convert designs into functional code and optimize it.
+                    Convertimos los diseños en código funcional y lo optimizamos.
                   </p>
                   <ul class="space-y-3 text-gray-400">
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-pink-500/20 text-pink-400">✓</span>
-                      <span>Frontend Development</span>
+                      <span>Desarrollo Frontend</span>
                     </li>
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-pink-500/20 text-pink-400">✓</span>
-                      <span>Backend Development</span>
+                      <span>Desarrollo Backend</span>
                     </li>
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-pink-500/20 text-pink-400">✓</span>
-                      <span>Quality Control</span>
+                      <span>Control de Calidad</span>
                     </li>
                   </ul>
                 </div>
@@ -593,22 +570,22 @@
                   </div>
                 </div>
                 <div class="mt-12 mr-4">
-                  <h3 class="mb-4 text-2xl font-bold text-white">Launch</h3>
+                  <h3 class="mb-4 text-2xl font-bold text-white">Lanzamiento</h3>
                   <p class="mb-6 text-gray-400">
-                    We deploy your project and ensure its success.
+                    Implementamos tu proyecto y aseguramos su éxito.
                   </p>
                   <ul class="space-y-3 text-gray-400">
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-violet-500/20 text-violet-400">✓</span>
-                      <span>Final Testing</span>
+                      <span>Pruebas Finales</span>
                     </li>
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-violet-500/20 text-violet-400">✓</span>
-                      <span>Deployment</span>
+                      <span>Implementación</span>
                     </li>
                     <li class="flex items-center space-x-3">
                       <span class="flex h-6 w-6 items-center justify-center rounded-full bg-violet-500/20 text-violet-400">✓</span>
-                      <span>Continuous Support</span>
+                      <span>Soporte Continuo</span>
                     </li>
                   </ul>
                 </div>
@@ -624,10 +601,10 @@
       <div class="container mx-auto px-4">
         <div class="mb-16 text-center">
           <h2 class="mb-4 text-5xl font-bold text-white">
-            Contact Us
+            Contáctanos
           </h2>
           <p class="mx-auto max-w-2xl text-gray-400">
-            Ready to take the next step? Let's talk about your project
+            ¿Listo para dar el siguiente paso? Hablemos de tu proyecto
           </p>
         </div>
 
@@ -669,7 +646,7 @@
                          active:scale-95
                          animate-form-button"
                 >
-                  Send Message
+                  Enviar mensaje
                   <span class="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
                 </button>
               </form>
@@ -1092,27 +1069,27 @@ cards.forEach(card => {
 const formFields = ref([
   {
     id: 1,
-    label: 'Name',
+    label: 'Nombre',
     type: 'input',
     inputType: 'text',
-    placeholder: 'Your full name',
+    placeholder: 'Tu nombre completo',
     value: '',
     focused: false
   },
   {
     id: 2,
-    label: 'Email',
+    label: 'Correo',
     type: 'input',
     inputType: 'email',
-    placeholder: 'your@email.com',
+    placeholder: 'tu@correo.com',
     value: '',
     focused: false
   },
   {
     id: 3,
-    label: 'Message',
+    label: 'Mensaje',
     type: 'textarea',
-    placeholder: 'Tell us about your project...',
+    placeholder: 'Cuéntanos sobre tu proyecto...',
     value: '',
     focused: false
   }
